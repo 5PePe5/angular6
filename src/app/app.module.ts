@@ -6,12 +6,22 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { QuienessomosComponent } from './quienessomos/quienessomos.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { ComodonarComponent } from './comodonar/comodonar.component';
+import { RegistroComponent } from './registro/registro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    QuienessomosComponent,
+    ProyectosComponent,
+    ContactoComponent,
+    ComodonarComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
