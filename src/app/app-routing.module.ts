@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { FooterComponent }   from './footer/footer.component'
 import { HeaderComponent } from './header/header.component';
+import { ProyectosComponent} from './proyectos/proyectos.component';
+import { QuienessomosComponent} from './quienessomos/quienessomos.component';
 
 
 const routes: Routes = [
@@ -12,6 +14,18 @@ const routes: Routes = [
   },
   {
     path: 'footer',
+    component: FooterComponent
+  },
+  {
+    path: 'proyectos',
+    component: ProyectosComponent
+  },
+  {
+    path: 'quienessomos',
+    component: QuienessomosComponent
+  },
+  {
+    path: 'registro',
     component: FooterComponent
   },
  
