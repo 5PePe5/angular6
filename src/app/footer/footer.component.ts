@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-
+  netImage: any = "/src/assets/img/icon/facebook.png";
+  
   constructor() { }
 
   ngOnInit() {
