@@ -59,7 +59,7 @@ header nav ul li:hover .children {
 
 header nav ul li .children {
 	display: none;
-	background:#c3d3c2;
+	background:#1213127e;
 	position: absolute;
 	width: 150%;
 	z-index:1000;
@@ -68,7 +68,7 @@ header nav ul li .children {
 header nav ul li .children li {
 	display:block;
 	overflow: hidden;
-	border-bottom: 1px solid rgba(255,255,255,.5);
+	border-bottom: 1px solid rgba(7, 7, 7, 0.486);
 }
 
 header nav ul li .children li a {
