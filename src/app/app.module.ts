@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // <-- ngModel lives here 
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HeaderComponent } from './header/header.component';
@@ -11,6 +10,9 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ComodonarComponent } from './comodonar/comodonar.component';
 import { RegistroComponent } from './registro/registro.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { CreaunacolectaComponent } from './creaunacolecta/creaunacolecta.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,10 @@ import { RegistroComponent } from './registro/registro.component';
     ProyectosComponent,
     ContactoComponent,
     ComodonarComponent,
-    RegistroComponent
+    RegistroComponent,
+    InicioComponent,
+    CreaunacolectaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
