@@ -13,6 +13,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { CreaunacolectaComponent } from './creaunacolecta/creaunacolecta.component';
 import { LoginComponent } from './login/login.component';
+import { BarraflotanteComponent } from './barraflotante/barraflotante.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LoginComponent } from './login/login.component';
     RegistroComponent,
     InicioComponent,
     CreaunacolectaComponent,
-    LoginComponent
+    LoginComponent,
+    BarraflotanteComponent
   ],
   imports: [
     BrowserModule,
