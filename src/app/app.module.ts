@@ -14,6 +14,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { CreaunacolectaComponent } from './creaunacolecta/creaunacolecta.component';
 import { LoginComponent } from './login/login.component';
 import { BarraflotanteComponent } from './barraflotante/barraflotante.component';
+import { NgxPopper } from 'angular-popper';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { BarraflotanteComponent } from './barraflotante/barraflotante.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    NgxPopper
   ],
   providers: [],
   bootstrap: [AppComponent]
