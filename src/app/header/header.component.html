@@ -1,3 +1,6 @@
+
+
+
 <header>
   <div class="menu_bar">
       <a href="#" class="bt-menu">
@@ -18,8 +21,58 @@
   <li><a routerLink="comodonar"><span class="icon-dot"></span>Como donar</a></li>
     <li><a routerLink="quienessomos"><span class="icon-dot"></span>Quienes somos</a></li>
       <li><a routerLink="contacto"><span class="icon-mail"></span>Contacto</a></li>
-      <li><a routerLink="login"><span class=""></span>login</a></li>
+      <li><a routerLink="login" class="btn btn-prima__" data-toggle="modael" data-target="#exampleModalLong"><span></span>login</a></li>
+         
 </ul>
-</nav>
 
+
+</nav>
+  
+<div>
+
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+          <form action="action_page.php">
+              <div class="imgcontainer">
+                <img src="/assets/img/img_avatar2.png" alt="Avatar" class="avatar">
+              </div>
+            
+              <div class="container">
+                <label for="uname"><b>Usuario</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Recordar cuenta
+                </label>
+              </div>
+            
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Olvide mi <a href="inicio">password?</a></span>
+              </div>
+            </form>
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
 </header>
