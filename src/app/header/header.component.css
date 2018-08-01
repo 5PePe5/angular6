@@ -20,7 +20,7 @@ header {
 
 header nav {
 	background:#0f0f0fd8;
-	z-index:1000;
+	z-index:50;
 	/* max-width: 1000px; */
 	width:100%;
 	margin:0px;

@@ -44,7 +44,17 @@
 
     text-align: center;
 }
+#modal{
 
+    z-index: 3000;
+    background:#131212c2;
+	z-index:1000;
+	/* max-width: 1000px; */
+	width:100%;
+	margin:0px;
+	margin-top: 0px;
+	position: fixed;
+}
 /* Add Animation */
 @keyframes animatetop {
     from {top: -300px; opacity: 0}
