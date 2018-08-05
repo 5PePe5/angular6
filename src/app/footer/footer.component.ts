@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-footer',
@@ -11,6 +12,30 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function(){
+      var estado = false;
+    
+      $('#btn-toggle').on('click',function(){
+        $('.seccionToggle').slideToggle();
+    
+        if (estado == true) {
+          $(this).text("Cerrar");
+          $('body').css({
+            /*"overflow": "auto"*/
+            "overflow": "hidden"
+          });
+          estado = false;
+        } else {
+          $(this).text("Abrir");
+          $('body').css({
+           /* "overflow": "hidden"*/
+            "overflow": "auto"
+          });
+          estado = true;
+        }
+      });
+    });
+
   }
 
 }
