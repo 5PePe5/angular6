@@ -1,26 +1,20 @@
-*{
-	padding:0;
-	/*margin:0;*/
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
 
-body {background:#FEFEFE;}
+
 
 .menu_bar {
     display:none; 
 }
 
 header {
+	margin-top: 0%;
     width: 100%;
     background-color:#000000;
-    margin-top: 0%;
+   
 }
 
 header nav {
 	background:#0f0f0fd8;
-	z-index:1000;
+	z-index:3000;
 	/* max-width: 1000px; */
 	width:100%;
 	margin:0px;
